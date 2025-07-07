@@ -20,8 +20,6 @@ const connection = new IORedis({ maxRetriesPerRequest: null });
 const worker = new Worker(
   "ubereatsScraper",
   async (job) => {
-    // Will print { foo: 'bar'} for the first job
-    // and { qux: 'baz' } for the second.
     await download(job.data);
     console.log(job.data);
   },
