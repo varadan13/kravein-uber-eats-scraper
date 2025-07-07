@@ -1,0 +1,808 @@
+{
+  "status": "success",
+  "data": {
+    "itemDescription": "Jarritos Cola",
+    "price": 750,
+    "productIdentifiers": null,
+    "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+    "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+    "title": "Jarritos Cola",
+    "uuid": "db934dad-9b17-5e12-be76-04cd1e54f307",
+    "isSoldOut": false,
+    "customizationsList": [],
+    "hasCustomizations": false,
+    "endorsement": {
+      "text": "Popular",
+      "textFormat": "<span>Popular</span>"
+    },
+    "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a6bd038483391ecbc5f7f5c82b71d62f/0fb376d1da56c05644450062d25c5c84.jpeg",
+    "images": [
+      {
+        "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a6bd038483391ecbc5f7f5c82b71d62f/0fb376d1da56c05644450062d25c5c84.jpeg"
+      }
+    ],
+    "suspendReason": null,
+    "suspendUntil": 0,
+    "itemPromotion": null,
+    "itemPromotionV2": {
+      "availablePromotion": null,
+      "appliedPromotion": null,
+      "promotionData": null
+    },
+    "classifications": [],
+    "itemAttributeInfo": {
+      "dietaryLabels": null
+    },
+    "tagSection": null,
+    "productDetailsItems": [
+      {
+        "type": "PRICING",
+        "payload": {
+          "pricingPayload": {
+            "pricingRichText": {
+              "richTextElements": [
+                {
+                  "text": {
+                    "text": {
+                      "text": "$7.50",
+                      "font": {
+                        "style": "HEADING_X_SMALL",
+                        "weight": "MEDIUM"
+                      },
+                      "color": "CONTENT_TERTIARY"
+                    },
+                    "predefinedDecorations": null
+                  },
+                  "type": "text"
+                }
+              ],
+              "accessibilityText": "$7.50"
+            }
+          },
+          "type": "pricingPayload"
+        }
+      },
+      {
+        "type": "QUANTITY_SELECTOR",
+        "payload": {
+          "quantitySelectorPayload": {
+            "itemUuid": "db934dad-9b17-5e12-be76-04cd1e54f307",
+            "storeUuid": "780a70e8-5276-5e32-9595-f24c9a57284f"
+          },
+          "type": "quantitySelectorPayload"
+        }
+      },
+      {
+        "type": "REMOVE_ITEM_BUTTON",
+        "payload": {
+          "removeItemButtonPayload": {},
+          "type": "removeItemButtonPayload"
+        }
+      },
+      {
+        "type": "CATALOG_SECTION",
+        "payload": {
+          "productCatalogSectionPayload": {
+            "catalogSection": {
+              "type": "VERTICAL_GRID",
+              "catalogSectionUUID": "c4238a2b-c027-431a-909f-c64e7f564e2d",
+              "payload": {
+                "standardItemsPayload": {
+                  "title": {
+                    "text": "Frequently bought together"
+                  },
+                  "spanCount": 1,
+                  "catalogItems": [
+                    {
+                      "uuid": "c2889ec3-5e6e-548a-8726-642335d3f144",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/a967f81b308eaaf93bbe9327f94e5cd1/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Jarritos Guava",
+                      "itemDescription": "Jarritos Guava",
+                      "price": 750,
+                      "priceTagline": {
+                        "text": "INR 7.50",
+                        "textFormat": "<span>INR 7.50</span>",
+                        "accessibilityText": "INR 7.50"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Jarritos Guava",
+                        "textFormat": "<span>Jarritos Guava</span>",
+                        "accessibilityText": "Jarritos Guava"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Jarritos Guava",
+                        "textFormat": "<span style=\"color:#757575\">Jarritos Guava</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$7.50",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$7.50"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Jarritos Guava",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Jarritos Guava"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 0
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "4ba30ffd-95ef-532d-9418-c3f837d4d1eb",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/0dd9c342cfad230976e9a12505417271/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Jarritos Mandarin",
+                      "itemDescription": "Jarritos Mandarin",
+                      "price": 750,
+                      "priceTagline": {
+                        "text": "INR 7.50",
+                        "textFormat": "<span>INR 7.50</span>",
+                        "accessibilityText": "INR 7.50"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Jarritos Mandarin",
+                        "textFormat": "<span>Jarritos Mandarin</span>",
+                        "accessibilityText": "Jarritos Mandarin"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Jarritos Mandarin",
+                        "textFormat": "<span style=\"color:#757575\">Jarritos Mandarin</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$7.50",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$7.50"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Jarritos Mandarin",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Jarritos Mandarin"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 1
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "df439260-4066-5a8c-835c-bd10d6a4fe77",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/05f1902bb7343d038136ece8576f1e7f/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Jarritos Lime",
+                      "itemDescription": "Jarritos Lime",
+                      "price": 750,
+                      "priceTagline": {
+                        "text": "INR 7.50",
+                        "textFormat": "<span>INR 7.50</span>",
+                        "accessibilityText": "INR 7.50"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Jarritos Lime",
+                        "textFormat": "<span>Jarritos Lime</span>",
+                        "accessibilityText": "Jarritos Lime"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Jarritos Lime",
+                        "textFormat": "<span style=\"color:#757575\">Jarritos Lime</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$7.50",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$7.50"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Jarritos Lime",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Jarritos Lime"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 2
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "6d0f167f-9cd1-55f8-8c9a-786cfdd7a161",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e7468f67569537788d0aa7d53a741a63/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Apple Juice",
+                      "itemDescription": "Apple Juice",
+                      "price": 650,
+                      "priceTagline": {
+                        "text": "INR 6.50",
+                        "textFormat": "<span>INR 6.50</span>",
+                        "accessibilityText": "INR 6.50"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Apple Juice",
+                        "textFormat": "<span>Apple Juice</span>",
+                        "accessibilityText": "Apple Juice"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Apple Juice",
+                        "textFormat": "<span style=\"color:#757575\">Apple Juice</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$6.50",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$6.50"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Apple Juice",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Apple Juice"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 3
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "aa0b4b99-e1e2-5d2a-a542-2aac8f1013ca",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/647c51e645f47134a46715b5a21a9611/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Side of Herb Mayo (VG)",
+                      "itemDescription": "Side of Herb Mayo (VG)",
+                      "price": 130,
+                      "priceTagline": {
+                        "text": "INR 1.30",
+                        "textFormat": "<span>INR 1.30</span>",
+                        "accessibilityText": "INR 1.30"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Side of Herb Mayo (VG)",
+                        "textFormat": "<span>Side of Herb Mayo (VG)</span>",
+                        "accessibilityText": "Side of Herb Mayo (VG)"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Side of Herb Mayo (VG)",
+                        "textFormat": "<span style=\"color:#757575\">Side of Herb Mayo (VG)</span>"
+                      },
+                      "subsectionUuid": "e07c9b00-5698-5bd6-9996-1f2e8e0d234b",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$1.30",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$1.30"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Side of Herb Mayo (VG)",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Side of Herb Mayo (VG)"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 4
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "a4e999a5-671d-5d63-b5d9-21d064b41120",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/80a9905c15d2adf3998c51adb7c5f738/5954bcb006b10dbfd0bc160f6370faf3.jpeg",
+                      "title": "Corn Chips",
+                      "itemDescription": "Corn Chips",
+                      "price": 500,
+                      "priceTagline": {
+                        "text": "INR 5.00",
+                        "textFormat": "<span>INR 5.00</span>",
+                        "accessibilityText": "INR 5.00"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Corn Chips",
+                        "textFormat": "<span>Corn Chips</span>",
+                        "accessibilityText": "Corn Chips"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Corn Chips",
+                        "textFormat": "<span style=\"color:#757575\">Corn Chips</span>"
+                      },
+                      "subsectionUuid": "e07c9b00-5698-5bd6-9996-1f2e8e0d234b",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$5.00",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          },
+                          {
+                            "text": {
+                              "text": {
+                                "text": " • ",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          },
+                          {
+                            "icon": {
+                              "icon": {
+                                "icon": "THUMB_UP_OUTLINE",
+                                "color": "PRIMARY",
+                                "size": "SPACING_UNIT_1_5X"
+                              },
+                              "alignment": "CENTERED"
+                            },
+                            "type": "icon"
+                          },
+                          {
+                            "text": {
+                              "text": {
+                                "text": " 98% (104)",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$5.00, 98% of customers liked this based on 104 reviews"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Corn Chips",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Corn Chips"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 5
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    }
+                  ],
+                  "numOfItemsOnScreen": 2.75,
+                  "catalogSectionHeaderPayload": {
+                    "standardHeaderPayload": {
+                      "title": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Frequently bought together",
+                                "font": {
+                                  "style": "HEADING_X_SMALL",
+                                  "weight": "BOLD"
+                                }
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Frequently bought together"
+                      }
+                    },
+                    "type": "standardHeaderPayload"
+                  },
+                  "scores": null
+                },
+                "type": "standardItemsPayload"
+              }
+            }
+          },
+          "type": "productCatalogSectionPayload"
+        }
+      },
+      {
+        "type": "DISCLAIMER",
+        "payload": {
+          "disclaimerPayload": {
+            "disclaimer": {
+              "richTextElements": [
+                {
+                  "text": {
+                    "text": {
+                      "text": "For all Nutritional & Allergen Information, please visit the GYG website [here.](https://www.guzmanygomez.com.au/the-food/nutritional-info/\")",
+                      "font": {
+                        "style": "PARAGRAPH_X_SMALL",
+                        "weight": "NORMAL"
+                      },
+                      "color": "CONTENT_SECONDARY"
+                    },
+                    "predefinedDecorations": null
+                  },
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "type": "disclaimerPayload"
+        }
+      }
+    ],
+    "customizationDetailsItems": [],
+    "purchaseInfo": {
+      "purchaseOptions": [],
+      "pricingInfo": {}
+    },
+    "numAlcoholicItems": 0,
+    "lowAvailabilityLabel": null,
+    "endorsementTags": [
+      {
+        "style": {
+          "definedStyle": "GRAY",
+          "type": "definedStyle"
+        },
+        "size": "SMALL",
+        "state": "ACTIVE",
+        "text": "Popular",
+        "hierarchy": "SECONDARY"
+      }
+    ],
+    "membershipUpsellPromotion": null,
+    "upsellPromotion": null,
+    "boostPromotion": null,
+    "itemsUpsell": [],
+    "crossSellSection": null
+  }
+}
