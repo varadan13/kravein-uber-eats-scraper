@@ -23,7 +23,7 @@ const download = async ({
   subsectionUuid,
   menuItemUuid,
 }) =>
-  await fetch("https://www.ubereats.com/_p/api/getMenuItemV1", {
+  await fetch("https://www.ubereats.com/_p/api/getMenuItemV1?localeCode=au", {
     headers: {
       accept: "*/*",
       "accept-language": "en-US,en;q=0.9",
@@ -43,7 +43,7 @@ const download = async ({
       "x-uber-client-gitref": "b89279c95112cff88f1758ac802961d1a82c5da1",
     },
     referrer:
-      "https://www.ubereats.com/store/taco-bell-2400-n-main-st/3c7jjHP2TgCl39BNFqBWMg/a4565d4a-7ea0-541b-a61d-5cfd80b02811",
+      "https://www.ubereats.com/au/store/guzman-y-gomez-linden-park/eApw6FJ2XjKVlfJMmlcoTw",
     referrerPolicy: "strict-origin-when-cross-origin",
     body: JSON.stringify({
       itemRequestType: "ITEM",

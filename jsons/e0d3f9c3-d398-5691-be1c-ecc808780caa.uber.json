@@ -1,0 +1,1249 @@
+{
+  "status": "success",
+  "data": {
+    "itemDescription": "Flat White",
+    "price": 500,
+    "productIdentifiers": null,
+    "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+    "subsectionUuid": "abad8180-2109-5ccb-9462-1e578543b49d",
+    "title": "Flat White",
+    "uuid": "e0d3f9c3-d398-5691-be1c-ecc808780caa",
+    "isSoldOut": false,
+    "customizationsList": [
+      {
+        "maxPermitted": 1,
+        "minPermitted": 1,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Size",
+        "uuid": "53d2aa00-a5d9-59c2-846c-7752fd6c77f3",
+        "displayState": "",
+        "groupId": 0,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Small",
+            "uuid": "f61c1d0d-7b54-55a5-9624-d7783a55c7a7",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 80,
+            "title": "Medium",
+            "uuid": "cbe3c538-db6b-5160-a904-0c125c15855b",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 210,
+            "title": "Large",
+            "uuid": "4ef738af-c1ad-586e-b61e-9fab4c5d1772",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 1,
+        "minPermitted": 1,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Milk",
+        "uuid": "f3b240c7-a6ab-550b-bf46-6ff3ae0a2514",
+        "displayState": "",
+        "groupId": 1,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Full Cream",
+            "uuid": "ba94d2c3-1d87-5b23-a3c4-e6fe3c35db45",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Skim",
+            "uuid": "d6e32008-545a-5a44-8b5b-18cdc5b631d4",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Soy",
+            "uuid": "6c70685a-3952-5f07-bfe2-6b6ed9a54d03",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Almond",
+            "uuid": "97146b29-24b4-53ee-aa82-33eb0831a3cb",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Oat Milk",
+            "uuid": "b38fd2a0-8d1b-57ca-9116-46143b2693fe",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 1,
+        "minPermitted": 0,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Sugar",
+        "uuid": "34e414df-3ae7-56a5-bf6f-5b3153839bb3",
+        "displayState": "",
+        "groupId": 2,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sugar X 1",
+            "uuid": "9ce642f0-bdca-5c93-8800-a615fdd974b0",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sugar X 2",
+            "uuid": "928653dd-d295-590d-8bb5-21bdcbcd7479",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sugar X 3",
+            "uuid": "55d7928d-0a7a-5a1a-a4a7-18c5ee95b848",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sugar X 4",
+            "uuid": "771121b2-1b32-5bf9-b4ce-4572d9b4a422",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 1,
+        "minPermitted": 0,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Sweetener",
+        "uuid": "119babb9-25b7-5ad1-8153-eaf265495d71",
+        "displayState": "",
+        "groupId": 3,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sweetener X 1",
+            "uuid": "dfe3478c-78b1-5225-9490-2a0002c21a0f",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sweetener X 2",
+            "uuid": "5640e5da-c32a-56b8-ae03-a7955ca1f66d",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sweetener X 3",
+            "uuid": "e047f6e1-83e2-5478-a070-35cfa1212603",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Sweetener X 4",
+            "uuid": "dada7586-ca82-535e-81f5-adec34e8d2fe",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 1,
+        "minPermitted": 0,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Temperature",
+        "uuid": "ea045ea7-1e63-5b88-a53f-45351c210b6f",
+        "displayState": "",
+        "groupId": 4,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Extra Hot",
+            "uuid": "e6788a8b-fd84-52ca-b57f-82a071ea68f3",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Warm",
+            "uuid": "9634a639-2032-583a-b4b0-3f44474fcd59",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 1,
+        "minPermitted": 0,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Strength",
+        "uuid": "ea9606af-74b5-53bc-9031-5972d6ba5a28",
+        "displayState": "",
+        "groupId": 5,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Strong",
+            "uuid": "77c9883d-b1b8-5500-aafc-b92b52e388ca",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 120,
+            "title": "Extra Shot",
+            "uuid": "439aeaca-d026-53ab-bf6d-05295e97e3cd",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "Half Strength",
+            "uuid": "c41c6b6a-b2c3-542b-9edc-b9de3547cdbe",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 0,
+        "minPermitted": 0,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Modification",
+        "uuid": "a40a8400-63cc-54df-9d7b-10df58017a8e",
+        "displayState": "",
+        "groupId": 6,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 0,
+            "title": "3/4 Full",
+            "uuid": "86de75e8-3164-5c5a-af64-a628abfb184a",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      },
+      {
+        "maxPermitted": 0,
+        "minPermitted": 0,
+        "minPermittedUnique": 0,
+        "maxPermittedUnique": 0,
+        "parentCustomizationOptionUuids": [],
+        "title": "Syrup",
+        "uuid": "2432f08d-a8c4-5854-8440-33e7dea17394",
+        "displayState": "",
+        "groupId": 7,
+        "options": [
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Caramel",
+            "uuid": "58bc528b-17c3-5189-bcd6-601ecf95f69d",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Vanilla",
+            "uuid": "565e402f-de6b-53a5-a2bc-a9b6d40a2452",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          },
+          {
+            "defaultQuantity": 0,
+            "minPermitted": 0,
+            "maxPermitted": 0,
+            "price": 60,
+            "title": "Hazelnut",
+            "uuid": "3c3631fd-238d-576c-9056-9df9b3300c83",
+            "isSoldOut": false,
+            "childCustomizationList": [],
+            "itemAttributeInfo": {
+              "dietaryLabels": null
+            },
+            "subtitle": null,
+            "shouldAutoShowChildCustomizations": false
+          }
+        ]
+      }
+    ],
+    "hasCustomizations": true,
+    "endorsement": {
+      "text": "Popular",
+      "textFormat": "<span>Popular</span>"
+    },
+    "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ab8daf052ac34af9de701c9db7dfc729/0fb376d1da56c05644450062d25c5c84.jpeg",
+    "images": [
+      {
+        "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/ab8daf052ac34af9de701c9db7dfc729/0fb376d1da56c05644450062d25c5c84.jpeg"
+      }
+    ],
+    "suspendReason": null,
+    "suspendUntil": 0,
+    "itemPromotion": null,
+    "itemPromotionV2": {
+      "availablePromotion": null,
+      "appliedPromotion": null,
+      "promotionData": null
+    },
+    "classifications": [],
+    "itemAttributeInfo": {
+      "dietaryLabels": null
+    },
+    "tagSection": null,
+    "productDetailsItems": [
+      {
+        "type": "PRICING",
+        "payload": {
+          "pricingPayload": {
+            "pricingRichText": {
+              "richTextElements": [
+                {
+                  "text": {
+                    "text": {
+                      "text": "$5.00",
+                      "font": {
+                        "style": "HEADING_X_SMALL",
+                        "weight": "MEDIUM"
+                      },
+                      "color": "CONTENT_TERTIARY"
+                    },
+                    "predefinedDecorations": null
+                  },
+                  "type": "text"
+                }
+              ],
+              "accessibilityText": "$5.00"
+            }
+          },
+          "type": "pricingPayload"
+        }
+      },
+      {
+        "type": "QUANTITY_SELECTOR",
+        "payload": {
+          "quantitySelectorPayload": {
+            "itemUuid": "e0d3f9c3-d398-5691-be1c-ecc808780caa",
+            "storeUuid": "780a70e8-5276-5e32-9595-f24c9a57284f"
+          },
+          "type": "quantitySelectorPayload"
+        }
+      },
+      {
+        "type": "REMOVE_ITEM_BUTTON",
+        "payload": {
+          "removeItemButtonPayload": {},
+          "type": "removeItemButtonPayload"
+        }
+      },
+      {
+        "type": "CATALOG_SECTION",
+        "payload": {
+          "productCatalogSectionPayload": {
+            "catalogSection": {
+              "type": "VERTICAL_GRID",
+              "catalogSectionUUID": "c4238a2b-c027-431a-909f-c64e7f564e2d",
+              "payload": {
+                "standardItemsPayload": {
+                  "title": {
+                    "text": "Frequently bought together"
+                  },
+                  "spanCount": 1,
+                  "catalogItems": [
+                    {
+                      "uuid": "baed56bf-d095-5fb8-b484-f0a9d1612509",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/21a63fd7e69449f81037749da1f3a391/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Lrg Coke",
+                      "itemDescription": "Coke 600ml",
+                      "price": 630,
+                      "priceTagline": {
+                        "text": "INR 6.30",
+                        "textFormat": "<span>INR 6.30</span>",
+                        "accessibilityText": "INR 6.30"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Lrg Coke",
+                        "textFormat": "<span>Lrg Coke</span>",
+                        "accessibilityText": "Lrg Coke"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Coke 600ml",
+                        "textFormat": "<span style=\"color:#757575\">Coke 600ml</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$6.30",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$6.30"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Lrg Coke",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Lrg Coke"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 0
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "245e32c0-4b8d-5244-b1d8-7e6e47ffb0d9",
+                      "imageUrl": "https://cn-geo1.uber.com/static/mobile-content/eats/placeholder_images/placeholder_image_restaurants_300x300.png",
+                      "title": "Side of Chipotle BBQ",
+                      "itemDescription": "Side of Chipotle BBQ",
+                      "price": 130,
+                      "priceTagline": {
+                        "text": "INR 1.30",
+                        "textFormat": "<span>INR 1.30</span>",
+                        "accessibilityText": "INR 1.30"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Side of Chipotle BBQ",
+                        "textFormat": "<span>Side of Chipotle BBQ</span>",
+                        "accessibilityText": "Side of Chipotle BBQ"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Side of Chipotle BBQ",
+                        "textFormat": "<span style=\"color:#757575\">Side of Chipotle BBQ</span>"
+                      },
+                      "subsectionUuid": "e07c9b00-5698-5bd6-9996-1f2e8e0d234b",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$1.30",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$1.30"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Side of Chipotle BBQ",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Side of Chipotle BBQ"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 1
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "2dcbcb00-4898-5dc6-971e-f60061069366",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/609b826e4539c10e26ecb752f98bb7e5/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Side of Brown Rice",
+                      "itemDescription": "Side of Brown Rice",
+                      "price": 500,
+                      "priceTagline": {
+                        "text": "INR 5.00",
+                        "textFormat": "<span>INR 5.00</span>",
+                        "accessibilityText": "INR 5.00"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Side of Brown Rice",
+                        "textFormat": "<span>Side of Brown Rice</span>",
+                        "accessibilityText": "Side of Brown Rice"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Side of Brown Rice",
+                        "textFormat": "<span style=\"color:#757575\">Side of Brown Rice</span>"
+                      },
+                      "subsectionUuid": "e07c9b00-5698-5bd6-9996-1f2e8e0d234b",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$5.00",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$5.00"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Side of Brown Rice",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Side of Brown Rice"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 2
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "6d0f167f-9cd1-55f8-8c9a-786cfdd7a161",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/e7468f67569537788d0aa7d53a741a63/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Apple Juice",
+                      "itemDescription": "Apple Juice",
+                      "price": 650,
+                      "priceTagline": {
+                        "text": "INR 6.50",
+                        "textFormat": "<span>INR 6.50</span>",
+                        "accessibilityText": "INR 6.50"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Apple Juice",
+                        "textFormat": "<span>Apple Juice</span>",
+                        "accessibilityText": "Apple Juice"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Apple Juice",
+                        "textFormat": "<span style=\"color:#757575\">Apple Juice</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$6.50",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$6.50"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Apple Juice",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Apple Juice"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 3
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "318fd492-46e4-5be4-8bd6-53aad8fad8d9",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/cb89ce87c5d3b3127b73896c6084cd8c/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Lrg Sprite",
+                      "itemDescription": "Sprite 600ml",
+                      "price": 630,
+                      "priceTagline": {
+                        "text": "INR 6.30",
+                        "textFormat": "<span>INR 6.30</span>",
+                        "accessibilityText": "INR 6.30"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Lrg Sprite",
+                        "textFormat": "<span>Lrg Sprite</span>",
+                        "accessibilityText": "Lrg Sprite"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Sprite 600ml",
+                        "textFormat": "<span style=\"color:#757575\">Sprite 600ml</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$6.30",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$6.30"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Lrg Sprite",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Lrg Sprite"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 4
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    },
+                    {
+                      "uuid": "a238e0b3-d18f-5be3-96f4-73cc4e02f7d7",
+                      "imageUrl": "https://tb-static.uber.com/prod/image-proc/processed_images/9f28f78c17b639b25f53183fbf12aff9/0fb376d1da56c05644450062d25c5c84.jpeg",
+                      "title": "Med Coke No Sugar",
+                      "itemDescription": "Coke No Sugar 390ml",
+                      "price": 500,
+                      "priceTagline": {
+                        "text": "INR 5.00",
+                        "textFormat": "<span>INR 5.00</span>",
+                        "accessibilityText": "INR 5.00"
+                      },
+                      "spanCount": 1,
+                      "displayType": "LIST",
+                      "titleBadge": {
+                        "text": "Med Coke No Sugar",
+                        "textFormat": "<span>Med Coke No Sugar</span>",
+                        "accessibilityText": "Med Coke No Sugar"
+                      },
+                      "isSoldOut": false,
+                      "hasCustomizations": false,
+                      "endorsement": {
+                        "backgroundColor": {
+                          "color": "#0E8345"
+                        },
+                        "text": "Popular",
+                        "textFormat": "<span>Popular</span>",
+                        "accessibilityText": "Popular",
+                        "textBorder": "PILL"
+                      },
+                      "numAlcoholicItems": 0,
+                      "itemDescriptionBadge": {
+                        "text": "Coke No Sugar 390ml",
+                        "textFormat": "<span style=\"color:#757575\">Coke No Sugar 390ml</span>"
+                      },
+                      "subsectionUuid": "70a67583-40e2-5934-b06c-7f110692bccb",
+                      "isAvailable": true,
+                      "purchaseInfo": {
+                        "purchaseOptions": [],
+                        "pricingInfo": {}
+                      },
+                      "sectionUuid": "1baf9fe2-6353-5423-8514-3d910b07f163",
+                      "quickAddConfig": {
+                        "shouldShow": true,
+                        "isInteractionEnabled": true,
+                        "position": "BOTTOM_TRAILING"
+                      },
+                      "labelPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "$5.00",
+                                "font": {
+                                  "style": "PARAGRAPH_SMALL",
+                                  "weight": "NORMAL"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "$5.00"
+                      },
+                      "headingPrimary": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Med Coke No Sugar",
+                                "font": {
+                                  "style": "LABEL_DEFAULT",
+                                  "weight": "MEDIUM"
+                                },
+                                "color": "CONTENT_PRIMARY"
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Med Coke No Sugar"
+                      },
+                      "itemAvailabilityState": "UNKNOWN",
+                      "catalogItemAnalyticsData": {
+                        "catalogSectionItemPosition": 5
+                      },
+                      "endorsementV2": {
+                        "style": {
+                          "definedStyle": "GREEN",
+                          "type": "definedStyle"
+                        },
+                        "size": "X_SMALL",
+                        "state": "ACTIVE",
+                        "text": "Popular",
+                        "hierarchy": "PRIMARY"
+                      },
+                      "imageOverlayElements": null,
+                      "itemThumbnailElements": null
+                    }
+                  ],
+                  "numOfItemsOnScreen": 2.75,
+                  "catalogSectionHeaderPayload": {
+                    "standardHeaderPayload": {
+                      "title": {
+                        "richTextElements": [
+                          {
+                            "text": {
+                              "text": {
+                                "text": "Frequently bought together",
+                                "font": {
+                                  "style": "HEADING_X_SMALL",
+                                  "weight": "BOLD"
+                                }
+                              },
+                              "predefinedDecorations": null
+                            },
+                            "type": "text"
+                          }
+                        ],
+                        "accessibilityText": "Frequently bought together"
+                      }
+                    },
+                    "type": "standardHeaderPayload"
+                  },
+                  "scores": null
+                },
+                "type": "standardItemsPayload"
+              }
+            }
+          },
+          "type": "productCatalogSectionPayload"
+        }
+      },
+      {
+        "type": "DISCLAIMER",
+        "payload": {
+          "disclaimerPayload": {
+            "disclaimer": {
+              "richTextElements": [
+                {
+                  "text": {
+                    "text": {
+                      "text": "For all Nutritional & Allergen Information, please visit the GYG website [here.](https://www.guzmanygomez.com.au/the-food/nutritional-info/\")",
+                      "font": {
+                        "style": "PARAGRAPH_X_SMALL",
+                        "weight": "NORMAL"
+                      },
+                      "color": "CONTENT_SECONDARY"
+                    },
+                    "predefinedDecorations": null
+                  },
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "type": "disclaimerPayload"
+        }
+      }
+    ],
+    "customizationDetailsItems": [],
+    "purchaseInfo": {
+      "purchaseOptions": [],
+      "pricingInfo": {}
+    },
+    "numAlcoholicItems": 0,
+    "lowAvailabilityLabel": null,
+    "endorsementTags": [
+      {
+        "style": {
+          "definedStyle": "GRAY",
+          "type": "definedStyle"
+        },
+        "size": "SMALL",
+        "state": "ACTIVE",
+        "text": "Popular",
+        "hierarchy": "SECONDARY"
+      }
+    ],
+    "membershipUpsellPromotion": null,
+    "upsellPromotion": null,
+    "boostPromotion": null,
+    "itemsUpsell": [],
+    "crossSellSection": null
+  }
+}
