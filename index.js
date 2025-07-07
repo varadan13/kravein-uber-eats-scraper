@@ -1,11 +1,3 @@
-function chunkArray(arr, size) {
-  const result = [];
-  for (let i = 0; i < arr.length; i += size) {
-    result.push(arr.slice(i, i + size));
-  }
-  return result;
-}
-
 function extractUberEatsContext(url) {
   const parsedUrl = new URL(url);
   const modctx = parsedUrl.searchParams.get("modctx");
@@ -90,9 +82,10 @@ const download = async ({
       document.body.removeChild(link);
     });
 
-const items = chunkArray(
-  $$(".ia.r0.r1.lw.lx.ly.lz.p9 a").map((e) => extractUberEatsContext(e.href)),
-  10
+const items = $$(".ia.r0.r1.lw.lx.ly.lz.p9 a").map((e) =>
+  extractUberEatsContext(e.href)
 );
 
-Promise.all(items[0].map(download))
+for (let url of items) {
+  download(url);
+}
