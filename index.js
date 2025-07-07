@@ -23,6 +23,7 @@ const download = async ({
   subsectionUuid,
   menuItemUuid,
 }) =>
+  // change the below line
   await fetch("https://www.ubereats.com/_p/api/getMenuItemV1?localeCode=au", {
     headers: {
       accept: "*/*",
@@ -40,8 +41,10 @@ const download = async ({
       "sec-fetch-mode": "cors",
       "sec-fetch-site": "same-origin",
       "x-csrf-token": "x",
+      // change the below line
       "x-uber-client-gitref": "b89279c95112cff88f1758ac802961d1a82c5da1",
     },
+    // change the below line
     referrer:
       "https://www.ubereats.com/au/store/guzman-y-gomez-linden-park/eApw6FJ2XjKVlfJMmlcoTw",
     referrerPolicy: "strict-origin-when-cross-origin",
