@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const outputDir = path.join(__dirname, "db");
+const outputDir2 = path.join(__dirname, "db.processed");
 
 import { exec } from "child_process";
 import { promisify } from "util";
@@ -14,6 +15,54 @@ import { promisify } from "util";
 const execAsync = promisify(exec);
 
 await mkdir(outputDir, { recursive: true });
+await mkdir(outputDir2, { recursive: true });
+
+const iterateArray = (arr, func) => {
+  const temp = [];
+
+  arr.forEach((ele) => {
+    temp.push(func(ele));
+  });
+
+  return temp;
+};
+
+const iterate = (obj) => {
+  const t = {};
+  Object.keys(obj).forEach((key) => {
+    if (key === "title") {
+      t.title = obj[key];
+    }
+
+    if (key === "uuid") {
+      t.uuid = obj[key];
+    }
+
+    if (key === "price") {
+      t.price = obj[key];
+    }
+
+    if (key.includes("subtitle") || key.includes("itemAttributeInfo")) {
+      // pass
+    } else if (Array.isArray(obj[key]) && obj[key].length !== 0) {
+      t[key] = iterateArray(obj[key], iterate);
+    } else if (
+      typeof obj[key] === "object" &&
+      obj[key] !== null &&
+      Object.keys(obj[key]).length !== 0
+    ) {
+      t[key] = iterate(obj[key]);
+    }
+  });
+
+  if (t.price) {
+    // pass
+  } else {
+    t.price = null;
+  }
+
+  return t;
+};
 
 const download = async ({
   storeUuid,
@@ -47,9 +96,25 @@ curl 'https://www.ubereats.com/_p/api/getMenuItemV1?localeCode=au' \
   `;
     const { stdout } = await execAsync(command);
 
-    const filePath = path.resolve(outputDir, `${menuItemUuid}.uber.json`);
-    await writeFile(filePath, stdout, "utf-8");
-    console.log(`✅ File saved: ${filePath}`);
+    const parseData = JSON.parse(stdout);
+
+    const tempList = iterateArray(parseData?.data?.customizationsList, iterate);
+
+    const stdOut2 = {};
+    stdOut2.itemname = parseData?.data?.title;
+    stdOut2.uuid = parseData?.data?.uuid;
+    stdOut2.price = parseData?.data?.price;
+    stdOut2.options = tempList;
+
+    const filePath1 = path.resolve(outputDir, `${menuItemUuid}.uber.json`);
+    const filePath2 = path.resolve(
+      outputDir2,
+      `${menuItemUuid}.processed.uber.json`
+    );
+    await writeFile(filePath1, stdout, "utf-8");
+    await writeFile(filePath2, JSON.stringify(stdOut2), "utf-8");
+    console.log(`✅ File saved: ${filePath1}`);
+    console.log(`✅ File saved: ${filePath2}`);
   } catch (err) {
     console.error("❌ Curl failed:", err.stderr || err.message);
   }

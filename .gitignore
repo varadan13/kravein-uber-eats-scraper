@@ -32,5 +32,6 @@ package-lock.json
 .snippets/*
 
 db/*
+db.processed/*
 
 /output/*

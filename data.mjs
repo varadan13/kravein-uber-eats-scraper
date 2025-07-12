@@ -1,820 +1,424 @@
 const data = [
-  {
-    menuItemUuid: "9d13e88b-a0bd-5944-8f36-d820d409a00f",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "82fd110a-8077-5378-9692-c874efa1cc48",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "efacdbac-4e79-5f7e-962e-57b6fedc927b",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "bc4f10d1-9c95-5520-87bf-199caded2aa9",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "69f0b5b0-ce34-590a-8e26-279126c6f34c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "f9cfc8c3-c642-5aae-9ee8-12715f1a8a24",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "c2fd8c88-0192-59f6-98fe-8d0b1db15187",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "513a59b1-ed6f-5950-a64f-1e2acccfcfc2",
-  },
-  {
-    menuItemUuid: "d6f8b0ad-00d8-5d7a-9ab0-4ea679317387",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "9253ca80-9242-5269-bd18-bd79321a1f2f",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "7cd37736-faa2-5eb8-9289-fa4b324dcc05",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "040b8a05-c342-5c02-8b30-f4a173e775df",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "4e74b82d-e090-5f7f-8de1-29451be6ed15",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "4291f6d4-b730-57cb-9d96-cdcc5f4d52b3",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "05ee4b9e-2bfe-5b19-a287-62b52ad51d6e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "1415d6f8-3249-5957-9815-ec4c92e8c4b9",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "8f5ea74a-56b6-513d-8c79-b4608b782ec7",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "08aab444-76ab-5651-8832-9835764f17d1",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "353472f2-bb73-52cc-a735-0a9755869ad5",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d2e9d9bc-d0b0-54d8-bff2-2167553a80e8",
-  },
-  {
-    menuItemUuid: "c3323ea9-5a86-57d5-a776-1e56f2460aa6",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "61d73fe1-ab2e-5415-8d05-fec21ed8a47e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "4fbac04b-4989-5d95-8a63-a136a793d1eb",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "ea90579b-dc57-541b-a235-17f01352d9bb",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "17d39bcc-dc4e-5ea0-bebe-85a35c487436",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "55f5061b-3dcf-50b1-a8d3-d5a3a2a2b896",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "eefda09f-f706-5081-9077-86534a5b98b2",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "14f7973e-0d88-5f22-88b7-127aad33d493",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "ee17adf2-b56f-5d53-8123-6c844598b686",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "2570d222-6820-5dd4-9700-ac69fb1484a6",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "149fc405-64d7-5d56-9dae-4e92881e7e6c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "d34a0ebf-b4fe-571b-8793-59685fdab445",
-  },
-  {
-    menuItemUuid: "dffd57c4-f95e-5707-b709-eebb7799e0c2",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "5dfe7b3b-4e36-5a44-b1cf-e45d0ff1a31c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "e7efe593-9ab2-52bc-b806-a3d4e55509db",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "3f8e0983-b9d7-517c-bc81-3a8cecbf3afe",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "53e8df99-29a3-55e0-be72-c37506634453",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "e356a295-d6d9-52a4-ad8d-4321355e749f",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "f963a158-a919-5cc2-aa56-05564504d10e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "c95e692b-1b19-52e3-9d7b-244d68861063",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "afcd678c-e2b2-5619-bb77-b51ae30537cd",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "8adfc18b-8dca-5e1a-ae9a-d8a6cc370b10",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "77de3241-834f-5852-b10b-f08b6b96d0b3",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "1e277efc-fa07-5560-996e-ee5c10c12f12",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "0a3a8ba6-7281-552c-a62f-d13c8dd9dfd0",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "f8880c74-be4b-5226-a6b4-6aaad0fe60c7",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "646e1fee-41c5-53ee-9cdc-4df794d1305d",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "f196e8a3-8212-5288-a122-b1906464863a",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "178de13a-970e-575e-b32c-3a94c0ddf159",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "d4890d02-b8c3-54f5-b34f-cf58d77276a5",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "02542bc4-b01b-5448-8d52-be182766e329",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "1a587baf-2ac1-5339-854f-a4c660ec3956",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "08a7e3c6-f387-506d-9eb2-34736c911038",
-  },
-  {
-    menuItemUuid: "fb4f1f6c-669f-561d-a7cf-cca9df565636",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "70d44d8f-52bb-5695-8dc5-80bde28e233f",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "a7727580-1948-56b9-b244-7ed95944e42a",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "eded582b-eb77-5d29-977e-eef76c3831a6",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "77f659ed-40be-5954-a323-9d66814a40e4",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "2c699076-39cc-594e-8c6a-e1ddbea91581",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "5a675e6f-9f32-5cf1-a071-1c5fff51772e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "c7e2def3-2763-5f50-beea-422c5100c693",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "a94b6722-238c-501d-a447-d01eadc0ee7f",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "3a415597-456f-581f-9d3d-5ecab9c7b000",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "33fea188-3e5b-54e9-9cc1-fd84f9329970",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "66743216-2b9e-58b1-bfc4-6981953cac71",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "9d4bef26-2a29-571a-9de0-f5f2d395af21",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "50c30226-efac-547a-8cc6-9f9efe8efb87",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "2f7fe044-a0e5-5922-bbe4-a622baf1b9ab",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "969bd02b-6ea3-541f-b68e-93ac37f66439",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "c78521a9-d5f0-5e35-a170-840f5869bca5",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "3fc22ac6-d20e-576f-be36-4d862da899ce",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "55865c11-55f5-51a7-a2cd-ffb56ed73f0e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "c894de11-2079-55b2-ab28-34f1c96babe4",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "7d83331e-1cf1-5e20-abad-d6f9310638bb",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "b99bae27-dec9-5178-ae47-d86ed28529b0",
-  },
-  {
-    menuItemUuid: "dc2f5d98-d904-56f2-a215-1080f6e95ed7",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "c2703024-acad-524c-b3d7-77574b29db71",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "6b58d43b-f6db-5b42-98be-4d80eebc6eeb",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "e0c8570e-cd48-5a6c-b0a3-8d6b8cb17e81",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "055cfa4e-d22f-5a35-8839-e6afaaf5111e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "5cda6a09-b4c7-5af0-b59c-ee0b28512649",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "5742978e-1727-547b-8774-3bf0c6ca9af8",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "43c36cdb-ab52-5a21-a9c9-1a94c6bdd1c8",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "2e9af1c7-2c44-5773-ba65-65603f36aa6a",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "46f8ca36-34b0-5df2-bd2b-9b46bf537ccf",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "8a11889a-86f1-504e-9943-5288d2943326",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "55b8f6d6-aad7-5706-9228-02037b98b851",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "edb6e79c-e5d4-5c32-bb03-d719782d76e5",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "f289a4f1-9211-58fe-b910-9aa49f914f9f",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "7d2cbc0e-8c48-5653-ba16-6c6318805373",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "b6550e4a-1957-5be7-96fc-30b25705bdf9",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "b8631bc9-aad3-5f03-95b6-d216a038d38e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "43ae26c6-267f-5443-b272-00562fd9c28d",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "adbbba92-d32f-55ed-9bed-722374eb4b6c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "99ca9359-e6f8-5ca5-a2f4-0fbde1152d4b",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "0c70af9a-01f7-5663-8ae7-1850ec59f43a",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "ddbd4113-9ac4-5dd4-8e9d-9971c4f91389",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "d41a5fed-278a-5789-9805-279af8b44d5e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "783b3b51-7725-54a8-aa5b-67bcf31f7a2c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "9bb70051-162c-5931-a54b-a3d6e90a733a",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "548dce4a-1564-5adb-8d07-bfa34fe232c4",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "0f1ac4cf-50d0-57a8-81a8-709c1a768df3",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "b2fe67ee-502e-51a4-ba72-3e84a70a0c89",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "d2841f96-69e8-57b2-b219-e17a137ff307",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "34cc4028-a873-5f10-9c53-f0cef02a0847",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "0532c27d-d7e0-5ef7-baa4-cd4ddcfe3b17",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "031f5223-cbb0-589e-9296-e9705c62c388",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "0757e10a-588b-52ea-a772-7f000e60f76d",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "b92ee902-396f-54ca-ab91-210b1cfe55a2",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "9029cf05-d376-550a-98f4-9f362fc9f24a",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "1658f680-893c-5b8d-8aa5-2fee81779406",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "2590be3f-a12f-51ae-b611-c69672067ea9",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "617716ad-9978-5cd2-8357-adce2a615f1d",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "55bc4aa8-3184-5c5d-b621-b0bdeb99f45d",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "3f25a6f3-1033-57c2-ab82-0e5a81778b00",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "94253b8a-cebb-5b20-a945-d4c9b504f500",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "e7fd2208-7724-5790-ade3-def970b9a7c5",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "700eba7a-e12d-5cd5-bb18-5c50ab8af449",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "4f5177d0-934f-56ac-a610-14400c83377b",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "a3913a7e-5f4d-5f1b-9a5a-68c516eaefe5",
-  },
-  {
-    menuItemUuid: "5b940387-56bc-55d2-b1d3-3ffab1e66f5e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "b5c2d16e-9b0a-5ccd-b104-327ca1af9aaa",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "b6e5c67a-cf5e-548c-bdcc-deb001d91952",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "a3e3c378-123b-52ed-bd16-937b7e52271c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "046231f2-57e1-53a8-b51b-c9af7ac095b4",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "32ae4b80-7dfe-5950-b796-0fb5a9dc0e21",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "46062fb4-cdfe-5415-9b99-6be328ff7e2e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "44281bf9-24de-5db3-8a57-43a9537df454",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "abc11e50-aea1-59e2-ba55-005bea47aeca",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "3d17677a-a71a-5a91-ad4b-01c93262c651",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "3912ebbc-c465-50cb-8b76-d2c9d2d386db",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "aa2edbd3-2a02-5e15-b5b3-4b165b1289d4",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "9a01f65d-4b62-5707-a04f-36e9ce7bedb3",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "87e39f10-33a5-59c0-bb36-e4cf816b84ba",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "2c96df86-bda4-596e-af5c-84a4c62c0bcb",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "4defe88b-f795-59dc-b7f2-71e9041242d4",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "1f52675d-88cd-5c90-b80d-a31d4c9134ea",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "50eb4414-99f5-51c8-98c7-b2b6a282b513",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "8bc1586b-4ec0-593c-9370-226e41f7948e",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "cd0db6d1-461f-5fb0-8dfb-25146893f8c0",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "48a17678-c887-58de-aa27-ba8ef3083581",
-  },
-  {
-    menuItemUuid: "eefda09f-f706-5081-9077-86534a5b98b2",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "cd485819-2c2b-50b8-b2ff-0e8758b947a9",
-  },
-  {
-    menuItemUuid: "149fc405-64d7-5d56-9dae-4e92881e7e6c",
-    sectionUuid: "0846752d-4bd7-51f1-bf2d-69cb0d26a336",
-    storeUuid: "2d36c5df-badf-4fed-89c7-3284fe4430fd",
-    subsectionUuid: "cd485819-2c2b-50b8-b2ff-0e8758b947a9",
-  },
-];
+    {
+        "menuItemUuid": "0f965486-eeb3-4041-bf68-f1c4261d564a",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "b03c7b03-6c43-4425-b6ec-2c9f7b1d7c72"
+    },
+    {
+        "menuItemUuid": "16e29555-35a3-469b-8708-9ccfb53f1566",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "b03c7b03-6c43-4425-b6ec-2c9f7b1d7c72"
+    },
+    {
+        "menuItemUuid": "09fe8b6d-d949-4174-88b0-415fe8b9a17e",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "b03c7b03-6c43-4425-b6ec-2c9f7b1d7c72"
+    },
+    {
+        "menuItemUuid": "0c91796e-abe5-4b4a-9d9a-7a001ae5ad6c",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "b03c7b03-6c43-4425-b6ec-2c9f7b1d7c72"
+    },
+    {
+        "menuItemUuid": "2bab08e6-4913-4655-bb93-10cc9c6086d1",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "4ba3329c-0c64-41a8-8996-9b9e822925b6",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "9c3f3bd5-0cc9-4fa1-bd6f-7b522dcf3ebf",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "5a7af583-c632-4c16-80b5-21279915c439",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "ba7c5c31-cf76-4d88-85cf-67379a62a937",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "6077eec7-0038-49a3-97a7-18ca01e1cf62",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "cbe1b978-6d5b-43ef-875e-cdf5de0e4c1e",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "912bf086-5fd6-4053-bbee-01993b2c380c",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "9590cc97-5974-428c-8791-81aba5980aba",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "c6ed77f2-7cb3-4f13-a332-eb6375b9cc51"
+    },
+    {
+        "menuItemUuid": "fdbf44a7-54d4-42f4-a39b-267e52816ea4",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "1087cfb0-d79e-49e3-b90b-405bcb9b1f34",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "1b3915e7-76a0-4812-a446-378cef141144",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "7ec934bd-8f8f-4f76-8a0c-b83f451670b3",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "bf7950c9-c41c-4778-8f74-e96d38e9e040",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "57983543-9941-4a94-b6c5-1b50c32208fd",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "25401ce3-bd7d-4ad5-ad60-4f92da370219",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "1fdd215e-e23c-4afb-ba35-4ac6a56966a7",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "3eca3d6e-159e-4dac-b959-2e9ff2619edd"
+    },
+    {
+        "menuItemUuid": "20a27753-690d-4fd0-b58e-ab4acd602b5c",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "1b499558-cde6-4867-80f8-a6cd68b5d72f",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "a05c6110-6fbb-4d6b-a421-541a07a09701",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "8ee2302a-77e0-4ea9-8619-55f5f14296b5",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "3598961f-e8e5-40ef-8015-03ad38bf21b9",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "40018c26-228c-49a7-ae23-b7d4b678db94",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "d5207332-1fd2-41db-80d3-d2572752d23c",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "9b500efd-ef8e-43d7-aff4-79a5f3e910fa"
+    },
+    {
+        "menuItemUuid": "f038bafe-e6e4-424a-b900-a57ad8cce131",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "715d9841-a9ce-4397-b357-a7b17f24152c",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "78130b48-6342-4bbc-a5f2-46178308ad36",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "ab66d894-208d-4f12-9b96-0ec61a7c3f10",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "754ed54a-7ad6-4fa9-8073-517ce3b032a1",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "c77b0b2f-de10-4fb1-b646-c2b315a921eb",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "7f5bd2e0-8004-4dbe-83d3-37745949902c",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "d9f68377-c3ad-455d-befb-130f13500a71"
+    },
+    {
+        "menuItemUuid": "92ccc268-5a57-4100-903b-59dc94183078",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "e85033b2-4281-4e2c-a7f9-37747275a7f6",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "6b65796e-79a6-4cca-9401-017e77e43a5a",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "72087b34-16f3-40f9-93a8-24debea8ae5d",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "4c6f7785-1bc1-4c0a-af70-105a5c866b4a",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "b9ff9df2-3f41-4cbe-838c-a385d31e4630",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "1166c588-c29a-4ed8-978f-8622d5cc244e",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "32371470-9785-42ba-a2a3-916c91237243",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "ccd1ec85-2750-433a-a094-e4642fd1bc18"
+    },
+    {
+        "menuItemUuid": "28cb0ae8-51ae-4dbd-b214-d800f11a1914",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "fae828a1-9920-498e-b3f0-803907aa3bed",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "8c680be1-bccd-43fc-baf6-4e2e6b61e24f",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "469a7f59-6288-40cb-b0b9-0dc8222f57bc",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "17198da6-c8b7-4974-8e15-4de546088585",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "13004d51-a755-4bb3-a5ae-a97bf1a43ed1",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "1f346855-5ad0-49ea-abda-30466b65cdad",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "1d0f7a8f-22e8-4b9f-9672-00d054983b6a",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "8def0935-189f-41ed-8b79-fb30d3e2267d",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "384efd10-1925-4591-aacc-99562ec86e7f",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "5d8d3892-e78f-41c5-bc9c-35654a358149",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "bed85b43-c83b-4d52-bc39-9dae0c4bc4e3",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "cbb90c87-c9c8-41f6-a7bd-fe1ba40f0f94",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "c115bf23-86c4-47f6-a669-1b38d41e3a49",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "6dec2624-6704-4961-bb18-19df2a3ca3d9"
+    },
+    {
+        "menuItemUuid": "27a8cf74-ccc3-4e18-8cd2-d997957b8fa4",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "cd97c24f-8c69-4957-bf65-3f1555911211"
+    },
+    {
+        "menuItemUuid": "7b7ddbd9-9e8d-48c9-ad08-6748fdbdec7b",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "cd97c24f-8c69-4957-bf65-3f1555911211"
+    },
+    {
+        "menuItemUuid": "facc55ba-50ef-4749-ab6f-73010964fcb5",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "cd97c24f-8c69-4957-bf65-3f1555911211"
+    },
+    {
+        "menuItemUuid": "bc5aca0e-8d69-4e42-bc7f-4c9869af617e",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "cd97c24f-8c69-4957-bf65-3f1555911211"
+    },
+    {
+        "menuItemUuid": "29c4db10-b907-4ab4-b418-3b78379c1237",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "cd97c24f-8c69-4957-bf65-3f1555911211"
+    },
+    {
+        "menuItemUuid": "722b9576-cf1c-4011-8e87-7510278c64ce",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "da1869fa-cfe9-434c-a1cf-b07e7b842f4d"
+    },
+    {
+        "menuItemUuid": "801e9396-17ce-4733-8f9d-4cdb8a767b1a",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "da1869fa-cfe9-434c-a1cf-b07e7b842f4d"
+    },
+    {
+        "menuItemUuid": "02c52dd3-8cae-43bb-a509-b3a560c274cb",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "da1869fa-cfe9-434c-a1cf-b07e7b842f4d"
+    },
+    {
+        "menuItemUuid": "615bd915-1884-4b02-8713-c0cd6a0779fe",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "118fc168-7cab-44b8-9a71-bc2c70e862f6"
+    },
+    {
+        "menuItemUuid": "24216ee7-f4b9-4392-bc94-17fc30246e9e",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "118fc168-7cab-44b8-9a71-bc2c70e862f6"
+    },
+    {
+        "menuItemUuid": "71538f34-9079-44d8-9c60-54490694a353",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "118fc168-7cab-44b8-9a71-bc2c70e862f6"
+    },
+    {
+        "menuItemUuid": "0d28b531-db82-4eeb-99cf-c5d68cdc0209",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "118fc168-7cab-44b8-9a71-bc2c70e862f6"
+    },
+    {
+        "menuItemUuid": "aba4ef7f-db35-42b8-b2db-1f28afb689bd",
+        "sectionUuid": "56ea96a5-0213-4b57-b67a-2261e940854e",
+        "storeUuid": "9a9644f3-7fbc-5fca-966c-2b92ebbe12cc",
+        "subsectionUuid": "118fc168-7cab-44b8-9a71-bc2c70e862f6"
+    }
+]
 
 export default data;
