@@ -52,7 +52,7 @@ async function generateCSV() {
   const outputDir = path.join(path.resolve(), "output");
   await mkdir(outputDir, { recursive: true });
   const files = await readdir(dbDir);
-  const csvRows = ["id,itemname,price\n"];
+  const csvRows = ["id,itemname,price,itemDescription,imageUrl\n"];
 
   for (const file of files) {
     if (!file.endsWith(".uber.json")) continue;
@@ -62,8 +62,19 @@ async function generateCSV() {
       const itemname = json?.data?.title;
       const uuid = json?.data?.uuid;
       const price = json?.data?.price;
+      const itemDescription = json?.data?.itemDescription;
+      const imageUrl = json?.data?.imageUrl;
+
       if (itemname)
-        csvRows.push(`${uuid},"${itemname.replace(/"/g, '""')}",${price}\n`);
+        csvRows.push(
+          `${uuid},"${itemname.replace(
+            /"/g,
+            '""'
+          )}",${price},"${itemDescription.replace(/"/g, '""')}","${imageUrl.replace(
+            /"/g,
+            '""'
+          )}"\n`
+        );
     } catch {}
   }
   const csvPath = path.join(outputDir, "items.csv");
