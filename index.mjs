@@ -52,9 +52,11 @@ async function generateCSV() {
   const outputDir = path.join(path.resolve(), "output");
   await mkdir(outputDir, { recursive: true });
   const files = await readdir(dbDir);
-  const csvRows = ["id,itemname,price,itemDescription,imageUrl\n"];
+  const csvRows = ["id,itemname,price,popular,itemDescription,imageUrl\n"];
 
+  let i = 1;
   for (const file of files) {
+    i++;
     if (!file.endsWith(".uber.json")) continue;
     const content = await readFile(path.join(dbDir, file), "utf-8");
     try {
@@ -63,18 +65,18 @@ async function generateCSV() {
       const uuid = json?.data?.uuid;
       const price = json?.data?.price;
       const itemDescription = json?.data?.itemDescription;
-      const imageUrl = json?.data?.imageUrl;
+      const imageUrl = json?.data?.imageUrl || "";
+      const popular = !!json?.data?.endorsement;
 
-      if (itemname)
-        csvRows.push(
-          `${uuid},"${itemname.replace(
-            /"/g,
-            '""'
-          )}",${price},"${itemDescription.replace(/"/g, '""')}","${imageUrl.replace(
-            /"/g,
-            '""'
-          )}"\n`
-        );
+      csvRows.push(
+        `${uuid},"${itemname.replace(
+          /"/g,
+          '""'
+        )}",${price},${popular},"${itemDescription.replace(
+          /"/g,
+          '""'
+        )}","${imageUrl.replace(/"/g, '""')}"\n`
+      );
     } catch {}
   }
   const csvPath = path.join(outputDir, "items.csv");
