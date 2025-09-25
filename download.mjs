@@ -100,12 +100,14 @@ const download = async ({
 
     //     const parseData = JSON.parse(stdout);
 
-    const parseData = await windowsDownload({
+    const stdout = await windowsDownload({
       storeUuid,
       sectionUuid,
       subsectionUuid,
       menuItemUuid,
     });
+
+    const parseData = stdout;
 
     const tempList = iterateArray(parseData?.data?.customizationsList, iterate);
 
@@ -120,7 +122,7 @@ const download = async ({
       outputDir2,
       `${menuItemUuid}.processed.uber.json`
     );
-    await writeFile(filePath1, stdout, "utf-8");
+    await writeFile(filePath1, JSON.stringify(stdout), "utf-8");
     await writeFile(filePath2, JSON.stringify(stdOut2), "utf-8");
     console.log(`✅ File saved: ${filePath1}`);
     console.log(`✅ File saved: ${filePath2}`);
