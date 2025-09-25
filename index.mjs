@@ -4,7 +4,7 @@ import IORedis from "ioredis";
 import { readdir, readFile, writeFile, mkdir } from "fs/promises";
 import path from "path";
 
-import data from "./data.scratch.mjs";
+import data from "./data.mjs";
 import download from "./download.mjs";
 
 const ubereatsQueue = new Queue("ubereatsScraper2");
